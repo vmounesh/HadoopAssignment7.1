@@ -1,0 +1,29 @@
+1. Why Map-reduce program is needed in Pig Programming?
+
+Pig run in 2 modes
+Mapreduce mode mode: Here jobs run as series of Map reduce jobs , picking up the input and output path from HDFS.
+
+2. What are advantages of pig over MapReduce?
+
+Pig takes 7-8 lines of code to process where as Map Reduce have hundreds of code to complete 
+and using Java language and Must think of Map and Reduce funtions.
+
+3. What is pig engine and what is its importance?
+It is used for execution of data flow in Parallel in Hadoop. It includes a language called Pig Latin for expressing data flows
+
+4. What are the modes of Pig execution?
+    2 modes. Local and Mapreduce mode
+
+5. What is grunt shell in Pig?
+
+executes pig commands
+6. What are the features of Pig Latin language?
+
+It provides standard data processing operators like join, filter,limit.
+
+7. Is Pig latin commands case sensitive?
+No
+
+8. What is a data flow language?
+
+Pig Latin is a very simple scripting language. It has constructs which can be used to apply different transformation on the data one after another.
